@@ -400,3 +400,74 @@ header{
     font-size: 14px;
     color: #94a3b8;
 }
+
+/* ===== Footer ===== */
+#footer{
+    background-color: #021b33;
+    color: #cbd5e1;
+    padding: 80px 20px 40px;
+}
+
+/* Layout */
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Brand */
+.footer-brand img{
+    max-width: 150px;
+}
+
+/* Social */
+.footer-social h4{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #ffffff;
+}
+
+.social-icons{
+    display: flex;
+    gap: 14px;
+}
+
+.social-icons a{
+    width: 36px;
+    height: 36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.1);
+    color: #ffffff;
+
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social-icons a:hover{
+    background-color: #5fae74;
+}
+
+/* Divider */
+.footer-divider{
+    margin: 50px auto 20px;
+    max-width: 1200px;
+    border: none;
+    height: 1px;
+    background-color: rgba(255,255,255,0.15);
+}
+
+/* Copyright */
+.footer-copy{
+    text-align: center;
+    font-size: 14px;
+    color: #94a3b8;
+}
