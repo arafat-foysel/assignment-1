@@ -336,19 +336,29 @@ header{
 /* ===== CTA Section ===== */
 #cta{
     padding: 120px 20px;
-    background-color: #faf9f6;
+    background-color: #ffffff; /* page background */
 }
 
-/* Container */
-.cta-container{
-    max-width: 1000px;
+/* Light background card */
+.cta-wrapper{
+    max-width: 1200px;
     margin: 0 auto;
 
+    background-color: #faf9f6;
+    border-radius: 20px;
+
+    padding: 80px 20px;
+}
+
+/* Content */
+.cta-content{
+    max-width: 900px;
+    margin: 0 auto;
     text-align: center;
 }
 
 /* Heading */
-.cta-container h2{
+.cta-content h2{
     font-size: 40px;
     font-weight: 700;
     color: #0f172a;
